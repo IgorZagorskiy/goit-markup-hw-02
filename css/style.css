@@ -21,6 +21,7 @@ a {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    text-align: center;
     color: #2e2f42;
 }
 
@@ -30,6 +31,7 @@ a {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .team-title,
@@ -38,6 +40,7 @@ a {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
     color: #2e2f42;
 }
 
@@ -68,17 +71,17 @@ letter-spacing: 0.03em;
 .nav-link {
     font-size: 16px;
         letter-spacing: 0.02em;
-        color: #434455;
+        color: #2e2f42;
         font-weight: 500;
         line-height: 1.5;
     }
 
-    .nav-link:hower {
+    .nav-link:hover,
+        .nav-link:focus {
             color: #404bbf;
         }
-    .nav-link:focus {
-        color: #404bbf;
-    }
+    
+        
 
 .header-contacts {
     font-style: normal;
@@ -89,10 +92,13 @@ letter-spacing: 0.03em;
 .contacts-item {}
 
 .contacts-link {
+    font-size: 16px;
+        letter-spacing: 0.02em;
 color: #434455;
+line-height: 1.5;
 }
 
-.contacts-link:hower,
+.contacts-link:hover,
 .contacts-link:focus {
     color: #404bbf
 }
@@ -113,6 +119,7 @@ background-color: #2e2f42;
         font-size: 56px;
         line-height: 1.07;
         letter-spacing: 0.02em;
+        text-align: center;
         color: #fff;
 }
 
@@ -127,10 +134,7 @@ background-color: #2e2f42;
             cursor: pointer
 }
 
-.hero-button:hower {
-background-color: #404BBF;
-}
-
+.hero-button:hover,
 .hero-button:focus {
     background-color: #404BBF;
 }
