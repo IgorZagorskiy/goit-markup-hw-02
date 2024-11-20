@@ -21,7 +21,6 @@ a {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #2e2f42;
 }
 
@@ -31,7 +30,6 @@ a {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-align: center;
 }
 
 .team-title,
@@ -40,7 +38,6 @@ a {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #2e2f42;
 }
 
@@ -71,13 +68,15 @@ letter-spacing: 0.03em;
 .nav-link {
     font-size: 16px;
         letter-spacing: 0.02em;
-        color: #2e2f42;
+        color: #434455;
         font-weight: 500;
         line-height: 1.5;
     }
 
-    .nav-link:hower,
-        .nav-link:focus {
+    .nav-link:hower {
+            color: #404bbf;
+        }
+    .nav-link:focus {
         color: #404bbf;
     }
 
@@ -114,7 +113,6 @@ background-color: #2e2f42;
         font-size: 56px;
         line-height: 1.07;
         letter-spacing: 0.02em;
-        text-align: center;
         color: #fff;
 }
 
